@@ -1,0 +1,56 @@
+.header {
+  background-color: #ffff;
+  border-radius: 30px;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchInput input::placeholder {
+  text-align: center;
+}
+
+.searchInput input {
+  width: 200px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.searchLogo {
+  display: block;
+  width: 30px;
+  color: #2e354f;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+
+  margin: 0;
+  gap: 0 10px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  width: 125px;
+  height: 38px;
+  border-radius: 30px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+
+#signupBtn {
+  background-color: #2e354f;
+  color: #ffff;
+}
